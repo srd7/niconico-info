@@ -1,0 +1,12 @@
+{
+  "name": "ニコニコ情報ビューワー",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "ニコニコ動画を再生する前に、投稿者やタグを確認し、釣り動画を回避しましょう。",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js":["jquery-2.2.4.min.js", "content.js"]
+    }
+  ]
+}
