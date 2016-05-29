@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "ニコニコ動画を再生する前に、投稿者やタグを確認し、釣り動画を回避しましょう。",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
